@@ -6,6 +6,13 @@
     box-sizing: border-box; 
 }
 
+body
+{
+  background: linear-gradient(to right, rgba(255, 0, 0, 0.406), rgba(255, 255, 0, 0.32));
+}
+
+
+
 .container {
     border: 0.3rem solid black; 
     width: 100vw;               
@@ -13,20 +20,29 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 #formulario{
     border: 0.1rem solid;
-    width: 20%;
-    height: 20%;
+    width: 40%;
+    height: 40%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
 }
+
+#formulario
+{
+    background-color: rgba(0, 0, 0, 0.263);
+    color: rgba(0, 0, 0, 0.498);
+
+}
+
 #txtLogin{
     width: 90%;
-    height: 50%;
+    height: 60%;
 }
 #txtSenha{
     width: 90%;
