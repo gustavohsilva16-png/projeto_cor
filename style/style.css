@@ -1,0 +1,37 @@
+:root{ /*nomeia variaveis, Desde nomes para borda nome para cores*/
+    --azul:#4034bb;
+    --azul-claro:#b8b1ff;
+    --vermelho-salmao:#ffaeaa;
+    --vermelho-vinho:#891717;
+}
+
+
+
+html, body{
+
+    margin: 0px;
+    padding: 0px;
+
+}
+
+#resp
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0,05rem solid;
+    width: fit-content;
+    width: 6rem;
+    font-size: clamp(1rem, 4vw, 2rem);
+    max-width: 98vw;
+    text-align: center;
+    background-color: var(--vermelho-salmao);
+    color: var(--azul);
+    transition: all 0.3 ease;
+}
+
+#resp.ativo
+{
+background-color: var(--vermelho-vinho);
+color: var(--azul);
+}
